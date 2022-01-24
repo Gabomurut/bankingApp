@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7082fdc0-1268-41d4-a403-be598c37ca85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dto/customerResponse.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/customer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/customerService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/customerService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/CustomerRepositoryDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/CustomerRepositoryDb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,15 @@
     <configuration name="go build github.com/bankingApp" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="bankingApp" />
       <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="SERVER_ADDRESS" value="localhost" />
+        <env name="SERVER_PORT" value="3000" />
+        <env name="DB_USER" value="root" />
+        <env name="DB_PASSWD" value="root" />
+        <env name="DB_ADDR" value="localhost" />
+        <env name="DB_PORT" value="3306" />
+        <env name="DB_NAME" value="banking" />
+      </envs>
       <kind value="PACKAGE" />
       <package value="github.com/bankingApp" />
       <directory value="$PROJECT_DIR$" />
