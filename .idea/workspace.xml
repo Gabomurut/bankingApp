@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7082fdc0-1268-41d4-a403-be598c37ca85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/errs/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/customerHandlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/CustomerRepositoryDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/CustomerRepositoryDb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/customer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/customerService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/customerService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +24,11 @@
   </component>
   <component name="GOROOT" url="file:///snap/go/current" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3e60930cffc609c173325a4097d3c997984a29d4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
