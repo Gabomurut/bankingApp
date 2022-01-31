@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7082fdc0-1268-41d4-a403-be598c37ca85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/accountHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dto/NewAccountRequest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dto/NewAccountResponse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/accountService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dto/transaction.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/accountHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/accountHandler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/AccountRepositoryDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/AccountRepositoryDb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errs/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/errs/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/accountService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/accountService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,5 +104,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/accountHandler.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
