@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7082fdc0-1268-41d4-a403-be598c37ca85" name="Changes" comment="" />
+    <list default="true" id="7082fdc0-1268-41d4-a403-be598c37ca85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/accountHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dto/NewAccountRequest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dto/NewAccountResponse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/accountService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/AccountRepositoryDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/AccountRepositoryDb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errs/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/errs/errors.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +29,11 @@
   </component>
   <component name="GOROOT" url="file:///snap/go/current" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3e60930cffc609c173325a4097d3c997984a29d4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
@@ -43,6 +58,10 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,6 +72,15 @@
     <configuration name="go build github.com/bankingApp" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="bankingApp" />
       <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="SERVER_ADDRESS" value="localhost" />
+        <env name="SERVER_PORT" value="3000" />
+        <env name="DB_USER" value="root" />
+        <env name="DB_PASSWD" value="root" />
+        <env name="DB_ADDR" value="localhost" />
+        <env name="DB_PORT" value="3306" />
+        <env name="DB_NAME" value="banking" />
+      </envs>
       <kind value="PACKAGE" />
       <package value="github.com/bankingApp" />
       <directory value="$PROJECT_DIR$" />
@@ -77,16 +105,5 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/service/customerService.go</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
